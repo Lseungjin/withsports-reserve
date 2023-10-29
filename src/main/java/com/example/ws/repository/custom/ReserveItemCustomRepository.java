@@ -21,7 +21,7 @@ public interface ReserveItemCustomRepository {
 
 
     /**
-     * 예약가능 백신이름 조회
+     * 예약가능 스포츠타입이름 조회
      */
     List<Sportstype> findAvailableSportstypes(Long stadiumId);
 
