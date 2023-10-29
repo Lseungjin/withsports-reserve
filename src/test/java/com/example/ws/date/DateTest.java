@@ -61,7 +61,7 @@ public class DateTest {
         }
     }
 
-    // 공휴일 구해오기 (성진님 추천 블로그 그대로)
+    // 공휴일 구해오기
     @Test
     void 공휴일() {
         Set<String> holidays = holidayService.holidayArray("2023");

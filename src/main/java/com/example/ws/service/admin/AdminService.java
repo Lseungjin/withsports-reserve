@@ -20,7 +20,7 @@ public interface AdminService {
     StadiumResponseDto getStadiumInfo(String stadiumName);
 
     /**
-     * 어드민이 관리하는 병원 리스트를 보여주기 위한 메서드
+     * 어드민이 관리하는 경기장 리스트를 보여주기 위한 메서드
      */
     List<StadiumSimpleInfoDto> getAllSimpleStadiumInfo(String name);
 

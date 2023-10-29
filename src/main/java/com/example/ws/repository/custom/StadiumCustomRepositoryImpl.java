@@ -33,7 +33,7 @@ public class StadiumCustomRepositoryImpl implements StadiumCustomRepository{
     };
 
     /**
-     * 경기장아이디로 병원정보 조회
+     * 경기장아이디로 경기장정보 조회
      */
     @Override
     public Optional<Stadium> findStadiumDetail(Long id){
