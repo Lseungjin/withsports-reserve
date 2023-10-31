@@ -42,7 +42,7 @@ public class AvailableTime {
             setEnabled(false);
         }
         if(restStock<0){
-            throw new NotEnoughStockException("예약 가능한 수량이 부족합니다.");
+            throw new NotEnoughStockException("예약이 가득찼습니다.");
         }
         this.availableDate.decreaseCount();
         this.acceptCount=restStock;
